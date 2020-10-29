@@ -59,7 +59,7 @@ type Modelo = Modelo Float Int
 
 type Accion = Nada
 
-inicial = Modelo 200 5
+inicial = Modelo 200 10
 actualizador accion modelo = modelo
 
 vista (Modelo long it) =
